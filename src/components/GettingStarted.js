@@ -11,9 +11,9 @@ const GettingStarted = () => {
  return(
   <>
 
-  <div className="row">
+  <div className="row m-3">
 
-   <div className="col text-center m-3 p-3 mx-auto intro">
+   <div className="col text-center m-3 p-4 mx-auto intro">
   <span className="F">F</span>or chicken keeping, the most important investment you can make is in a coop that protects chickens from the weather and predators, allows sunlight in a run, and provides an area for them to roost at night and a henbox for laying eggs. The coop should be accessible enough to easily clean regularly. Air circulation is critical in both the coop and the run area. If you are raising chicks, you will want to begin planning for your coop as soon as possible so that the chickens can be moved out to the coop at around 8 weeks of age (depending on local climate). <br /><br /> If you are in area where you can have roosters, you will want no more than one rooster per eight hens. 
   
   </div>
@@ -40,7 +40,7 @@ const GettingStarted = () => {
 
  <div className="row">
   <div className="col text-center m-3 p-3  intro mx-auto">
-  Basic supplies for laying hens include pine shavings, chicken feed with Omega-3, calcium or oyster shell, grit, nutritious chicken treats such as rose petals and mealy worms, and a constant supply of fresh water. <br /><br /> Baby chicks have additional needs including a special feed and temperature-controlled environment, and your local feed store will be able to help you get started. 
+  <span className="F">B</span>asic supplies for laying hens include pine shavings, chicken feed with Omega-3, calcium or oyster shell, grit, nutritious chicken treats such as rose petals and mealy worms, and a constant supply of fresh water. <br /><br /> Baby chicks have additional needs including a special feed and temperature-controlled environment, and your local feed store will be able to help you get started. 
  </div>
  </div>
 

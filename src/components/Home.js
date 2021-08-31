@@ -42,8 +42,8 @@ class Home extends React.Component {
  </div>
  </div>
   <div className="row">
-  <div className="col text-center mx-auto m-3 p-4 intro">
-   Raising chickens can be a fun and rewarding activity. With the right setup, it can also be surprisingly low maintenance, on par with having a dog or cat.
+  <div className="col text-center mx-auto m-3 py-4 intro">
+   <span className="F">R</span>aising chickens can be a fun and rewarding activity. With the right setup, it can also be surprisingly low maintenance, on par with having a dog or cat.
  </div>
  </div>
 
@@ -55,12 +55,12 @@ class Home extends React.Component {
  </div>
 
  <div className="row">
-  <div className="col text-center m-3 p-4 mx-auto intro">
-  Chickens can learn all kinds of things, including who their caretakers are, and they can be very social.
+  <div className="col text-center py-4 mx-auto intro">
+  <span className="F">C</span>hickens can learn all kinds of things, including who their caretakers are, and they can be very social.
  </div>
  </div>
 
-  <div className="row">
+  <div className="row my-4">
  
      <form onSubmit={this.handleSubmit} className='form-field shadow-lg'>
         <div className="col text-center m-1 mx-auto pt-2"><h5>Sign up for The Chicken Chat newsletter</h5>
